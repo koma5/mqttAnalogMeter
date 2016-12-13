@@ -34,6 +34,19 @@ int scaleToMeter(float input) {
 }
 
 void loop() {
+
+  /*
+  // used to calibrate
+  analogWrite(6, 255);
+  delay(2000);
+  analogWrite(6, 0);
+  delay(2000);
+
+  for(int i=191; i<=255;i++)
+  {
+    analogWrite(6, i);
+    delay(100);
+  }*/
   
   
   if(client.connected())
